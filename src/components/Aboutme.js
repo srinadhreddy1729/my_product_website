@@ -20,9 +20,14 @@ function Aboutme() {
                     className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-500 ease-in-out delay-300">
                     Get in Touch
                 </a>
+                <a 
+                    href="#service" 
+                    className=" m-2 inline-block border hover:border-indigo-700 text-black p-4 rounded-lg text-black px-6 py-3 rounded-lg hover:bg-white-700 transition duration-500 ease-in-out delay-300">
+                    Our Services
+                </a>
             </div>
-            <div className="w-full md:w-1/2 animate-slideIn">
-                <img src={provider} alt="Freelancing" className="w-full h-auto" />
+            <div className="w-full md:w-1/2 animate-slideIn mt-2">
+                <img src={provider} alt="Freelancing" className="w-full h-auto rounded-lg" />
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMobileAlt, FaJava, FaCloud } from 'react-icons/fa';
+import { FaMobileAlt, FaJava, FaCloud ,FaNodeJs} from 'react-icons/fa';
 
 const skillsData = [
   {
@@ -15,7 +15,7 @@ const skillsData = [
   {
     title: 'MEAN Stack',
     description: 'Full-stack development using MongoDB, Express.js, Angular, and Node.js.',
-    icon: <FaCloud className="text-6xl text-indigo-600 mb-4" />,
+    icon: <FaNodeJs className="text-6xl text-indigo-600 mb-4" />,
   },
 ];
 
