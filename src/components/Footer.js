@@ -8,8 +8,8 @@ function Footer() {
                 <div className="flex flex-col md:flex-row justify-between">
                     <div className="mb-4">
                         <h3 className="text-lg font-semibold border-b-2 border-indigo-500 pb-2 mb-2">Contact Us</h3>
-                        <p>Email: <a href="mailto:info@example.com" className="text-indigo-400 hover:underline">pvenkatasrinadhreddy@gmail.com</a></p>
-                        <p>Phone: <a href="tel:+11234567890" className="text-indigo-400 hover:underline">+91 6304594290</a></p>
+                        <p>Email: <a href="mailto:pvenkatasrinadhreddy@gmail.com" className="text-indigo-400 hover:underline">pvenkatasrinadhreddy@gmail.com</a></p>
+                        <p>Phone: <a href="tel:+916304594290" className="text-indigo-400 hover:underline">+91 6304594290</a></p>
                     </div>
 
                     <div className="mb-4">
