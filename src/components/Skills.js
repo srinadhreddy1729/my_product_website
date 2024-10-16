@@ -5,7 +5,7 @@ const skillsData = [
   {
     title: 'Flutter',
     description: 'Mobile app development using Flutter for cross-platform solutions.',
-    icon: <FaMobileAlt className="text-6xl text-indigo-600 mb-4" />,
+    icon: <FaFlutter className="text-6xl text-indigo-600 mb-4" />,
   },
   {
     title: 'Java Full Stack',

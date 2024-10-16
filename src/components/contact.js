@@ -1,6 +1,12 @@
 function Contact()
 {
 
+
+  const clearForm=(e)=>
+    {
+      console.log(e)
+      
+    }
   
     return <section id="contact">
  
@@ -14,7 +20,7 @@ function Contact()
 </p>
 
   </div>
-  <form action="https://formspree.io/f/xkgnnrnb" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+  <form action="https://formspree.io/f/xkgnnrnb" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20" onClick={clearForm}>
     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
       <div>
         <label for="first-name" className="block text-sm font-semibold leading-6 text-gray-900">First name</label>
@@ -49,7 +55,7 @@ function Contact()
       </div>
     </div>
     <div className="mt-10">
-      <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's talk</button>
+      <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" >Let's talk</button>
     </div>
   </form>
 </div>

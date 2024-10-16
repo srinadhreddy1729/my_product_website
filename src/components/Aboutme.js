@@ -2,6 +2,7 @@ import React from 'react';
 import provider from '../assets/provider.jpg'; 
 import '../components/aboutme.css'
 
+
 function Aboutme() {
     return (
         <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto py-20 px-4">
